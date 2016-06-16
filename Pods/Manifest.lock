@@ -1,12 +1,12 @@
 PODS:
-  - DynamicButton (2.1.0)
+  - DLRadioButton (1.4.8)
 
 DEPENDENCIES:
-  - DynamicButton (~> 2.1)
+  - DLRadioButton (~> 1.4)
 
 SPEC CHECKSUMS:
-  DynamicButton: 08c809fdee3c4feb34a20beeba64c069a529d176
+  DLRadioButton: 8fe4865b3ea8a5236e1d114dd283dd0884d3dc46
 
-PODFILE CHECKSUM: 57457936bf6253d0383fab100ab881e680dfd150
+PODFILE CHECKSUM: 187221afd8d0ed6d7b6b78e6747be94e460f11a6
 
 COCOAPODS: 1.0.0

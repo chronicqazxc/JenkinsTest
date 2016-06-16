@@ -7,135 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0084DD08E9A2383560949E90C72CD563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		02F4B1A2DA6504DE901A0C33A71C3390 /* DynamicButtonStyleStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB750E17FD5D13411D3C3F89911BEA4D /* DynamicButtonStyleStop.swift */; };
-		14DE6F71006607743C93233FA3BB31D2 /* DynamicButtonStyleCaretUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB44C468CF70689DEB81BD893AA851F /* DynamicButtonStyleCaretUp.swift */; };
-		1F62C2403B4D3497CA24631AC2FA1F7E /* DynamicButtonStyleFastForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854E6E74300607046F3FC68036F80EF2 /* DynamicButtonStyleFastForward.swift */; };
-		260594236DC0DA170536026C8B3C87B4 /* DynamicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187108BD0825399CB75BB4DB6334AD8B /* DynamicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DF99BECC45C31A058C4FF7D808CCB18 /* DynamicButtonStyleArrowDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E018ECBDE3DCE47FFD467289AF4670 /* DynamicButtonStyleArrowDown.swift */; };
-		2FA69D04971BFA570F1064F64AB1C281 /* DynamicButtonStyleCaretLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E1A503C0DFCE093742A3FE9BF4D722 /* DynamicButtonStyleCaretLeft.swift */; };
-		36000FF345EE112F1214D423AC1C9F8D /* DynamicButtonStyleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5165B94A5D6AC3D015F6442A35CCC6D8 /* DynamicButtonStyleDot.swift */; };
-		3D6EE0740EF9DC73E44E24FEF9FB2197 /* DynamicButtonStyleCaretDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB774EED46D7CD9EDAFC9DEB4EE6F4A /* DynamicButtonStyleCaretDown.swift */; };
-		473C4C9DD54A4A5A90044516C21167FF /* DynamicButtonStyleArrowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646C9A7834E95373ED9C454C6A19A07 /* DynamicButtonStyleArrowUp.swift */; };
-		4AF869AA195A1C8C2D7B3C50E9C8FFB8 /* PathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D986D36E92E95D6D3B233AC1756BD /* PathHelper.swift */; };
-		57AA3D49348DE30E3D690C8AF0945A95 /* DynamicButtonStyleRewind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8F12F4E5192057F6B1707CF26899B /* DynamicButtonStyleRewind.swift */; };
-		6393BDD80CBEAAD768C3B3DCB63F25BB /* DynamicButtonStyleCircleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606681BA2CE5E30132C22EF783F9FB2 /* DynamicButtonStyleCircleClose.swift */; };
-		6447BE95F176EA0D112C94D98B46CBF9 /* DynamicButtonStyleHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDC1439739C79593A564DBEC5E7640 /* DynamicButtonStyleHamburger.swift */; };
-		74BE3EE6F5493387952E1A23642C4793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		78668D6766B411ACAD647A38BC51019E /* DynamicButtonStyleCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E237B87542879EDA5CC755050AC71F8 /* DynamicButtonStyleCheckMark.swift */; };
-		850BFFF848007B8FB69086342368640D /* DynamicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE1797B2C8E97ED1D10F15632B050D0 /* DynamicButton-dummy.m */; };
-		9AC6827D95C00BCC9A8415780C98DFCC /* DynamicButtonStyleVerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C72B30CDB7DC295BDD574E1BE49A8 /* DynamicButtonStyleVerticalLine.swift */; };
-		9B3AE9F782BC3121E0CFEF0C8D9ABF72 /* DynamicButtonStyleDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD932F1775CEE258BC1B35E2F368611 /* DynamicButtonStyleDownload.swift */; };
-		9D26A58BEF69F57F33E6D3A413D91670 /* Pods-JenkinsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */; };
-		A2E645E204C259F4BB0192893B35DEB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		A3B65DBF2319DCC423837D4C6EB3709A /* DynamicButtonStyleArrowLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6224C7BFB42CA5340DB41FAA19757F5 /* DynamicButtonStyleArrowLeft.swift */; };
-		A64F59FA443449BE46844816459AC7F1 /* DynamicButtonStyleArrowRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC352754E847019DD997B0AFE64854 /* DynamicButtonStyleArrowRight.swift */; };
-		AB070C3AFBD305B15D37AAE4C866D40C /* DynamicButtonStyleNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09C80A3F2A50B0398C5F65F5E94174 /* DynamicButtonStyleNone.swift */; };
-		CA14F46741E5D4EB6F49F028ECCB0A68 /* DynamicButtonStylePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A65F4EC244AB537D84C939EB99072 /* DynamicButtonStylePlay.swift */; };
-		CA4919390083455E0CADBFC6F327A9F8 /* DynamicButtonStyleCirclePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C96649B39B00B1C89C083E1C96452B /* DynamicButtonStyleCirclePlus.swift */; };
-		CA4F288007B3EE798928A30055D87D35 /* DynamicButtonStyleCaretRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D4CE38FF6DAEA306D03C08104034E /* DynamicButtonStyleCaretRight.swift */; };
-		CDFA81C8701C156BE683D1C0F965EDD3 /* DynamicButtonStylePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F1FB50B86279600DB7CDF3254355E /* DynamicButtonStylePlus.swift */; };
-		D6646571D768AB8B5864C02CA1E289F5 /* DynamicButtonStyleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB842CD345D4ECA594E6D06D4521BE /* DynamicButtonStyleClose.swift */; };
-		D8093A0C047616641D2AE98D4FECC3D0 /* DynamicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D310EEE85255A53AB1EC3D176431CB5B /* DynamicButtonStyle.swift */; };
-		DD2B04EC94EB34523F3B1DCDC7C56657 /* Pods-JenkinsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE069421E68F395D62446DD9D07981C0 /* DynamicButtonStylePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B4C19402C868A3FC286FC5B207924 /* DynamicButtonStylePause.swift */; };
-		E2CF940C7163342D4EB6E7B403940580 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB223FF103DFE8324A34BF33A1709C4 /* DynamicButton.swift */; };
-		E347EA1409422CAD4B12696D54604E61 /* DynamicButtonStyleReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88113267870D8B465C0D6AD0C012E8A /* DynamicButtonStyleReload.swift */; };
-		F890AFCD40A581DDA1CD03B19CEBDF36 /* DynamicButtonStyleHorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226217FCD1804D669AE063500C80A42 /* DynamicButtonStyleHorizontalLine.swift */; };
+		1FA6F55238D2BC35915AECD626884F1D /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */; };
+		5F5B910D306CC0849640D0372E2ADB43 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A028112A4C3A43DAA9BFB281C6AC8ACB /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */; };
+		BE6738C0C0FD368B7299C7037B773694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C7AB837F3200D41BF676DC49D222EBAC /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9507D065768688927402DDEC9400076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F285468F92D3AE871C2A6329C4FB84E3 /* Pods-JenkinsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */; };
+		FF59A4545BCDB243A42266E87D37BB37 /* Pods-JenkinsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DDAC372DEFF0E1DC109BF59F14153281 /* PBXContainerItemProxy */ = {
+		AA4C9973401EC01CAA53296F2EBE70E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA17100DB8275605CCE5C20A2BAE7024;
-			remoteInfo = DynamicButton;
+			remoteGlobalIDString = F3990E3EAC160D4E4F89177D966FC1E9;
+			remoteInfo = DLRadioButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0226217FCD1804D669AE063500C80A42 /* DynamicButtonStyleHorizontalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalLine.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleHorizontalLine.swift; sourceTree = "<group>"; };
-		066A65F4EC244AB537D84C939EB99072 /* DynamicButtonStylePlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlay.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStylePlay.swift; sourceTree = "<group>"; };
-		08A35DE4914C6427353653869BFA307C /* DynamicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicButton.xcconfig; sourceTree = "<group>"; };
-		0CB44C468CF70689DEB81BD893AA851F /* DynamicButtonStyleCaretUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretUp.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCaretUp.swift; sourceTree = "<group>"; };
 		1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsTest-dummy.m"; sourceTree = "<group>"; };
 		145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JenkinsTest-umbrella.h"; sourceTree = "<group>"; };
-		187108BD0825399CB75BB4DB6334AD8B /* DynamicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-umbrella.h"; sourceTree = "<group>"; };
 		2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsTest.debug.xcconfig"; sourceTree = "<group>"; };
-		3E237B87542879EDA5CC755050AC71F8 /* DynamicButtonStyleCheckMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCheckMark.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCheckMark.swift; sourceTree = "<group>"; };
-		4606681BA2CE5E30132C22EF783F9FB2 /* DynamicButtonStyleCircleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCircleClose.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCircleClose.swift; sourceTree = "<group>"; };
-		4AC9B8409929FAE9BBFC1F5A917D4BD8 /* DynamicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicButton.modulemap; sourceTree = "<group>"; };
 		4B0D791B791C6E61A48B57675BFD3E5C /* Pods-JenkinsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FCDC1439739C79593A564DBEC5E7640 /* DynamicButtonStyleHamburger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHamburger.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleHamburger.swift; sourceTree = "<group>"; };
-		5165B94A5D6AC3D015F6442A35CCC6D8 /* DynamicButtonStyleDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDot.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleDot.swift; sourceTree = "<group>"; };
-		54C96649B39B00B1C89C083E1C96452B /* DynamicButtonStyleCirclePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCirclePlus.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCirclePlus.swift; sourceTree = "<group>"; };
-		54E018ECBDE3DCE47FFD467289AF4670 /* DynamicButtonStyleArrowDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowDown.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleArrowDown.swift; sourceTree = "<group>"; };
-		554171A05AE39D9D8914048D2DB43753 /* DynamicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BB223FF103DFE8324A34BF33A1709C4 /* DynamicButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButton.swift; path = DynamicButton/DynamicButton.swift; sourceTree = "<group>"; };
-		5D9F1FB50B86279600DB7CDF3254355E /* DynamicButtonStylePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlus.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStylePlus.swift; sourceTree = "<group>"; };
-		5EB774EED46D7CD9EDAFC9DEB4EE6F4A /* DynamicButtonStyleCaretDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretDown.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCaretDown.swift; sourceTree = "<group>"; };
-		70CB842CD345D4ECA594E6D06D4521BE /* DynamicButtonStyleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleClose.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleClose.swift; sourceTree = "<group>"; };
+		58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		5D6D1DD8C281B7641F70A2F3A794894E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601D73B77BA241A1996266E3ACE103F5 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
 		8070BEA9A79337E9232E46BDEA2022EB /* Pods-JenkinsTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsTest-resources.sh"; sourceTree = "<group>"; };
-		817C72B30CDB7DC295BDD574E1BE49A8 /* DynamicButtonStyleVerticalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalLine.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleVerticalLine.swift; sourceTree = "<group>"; };
 		8231462E11E992622DFC0E2B1627C77D /* Pods-JenkinsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsTest-frameworks.sh"; sourceTree = "<group>"; };
-		825D4CE38FF6DAEA306D03C08104034E /* DynamicButtonStyleCaretRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretRight.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCaretRight.swift; sourceTree = "<group>"; };
 		84B6FD6961B29094DF2BC1476DCAAAED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		854E6E74300607046F3FC68036F80EF2 /* DynamicButtonStyleFastForward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleFastForward.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleFastForward.swift; sourceTree = "<group>"; };
-		87DC352754E847019DD997B0AFE64854 /* DynamicButtonStyleArrowRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowRight.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleArrowRight.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F4F7873BF1C9040ABBE0CB6912DADB2 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A88113267870D8B465C0D6AD0C012E8A /* DynamicButtonStyleReload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleReload.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleReload.swift; sourceTree = "<group>"; };
-		AB750E17FD5D13411D3C3F89911BEA4D /* DynamicButtonStyleStop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleStop.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleStop.swift; sourceTree = "<group>"; };
-		ACE1797B2C8E97ED1D10F15632B050D0 /* DynamicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicButton-dummy.m"; sourceTree = "<group>"; };
-		AF09C80A3F2A50B0398C5F65F5E94174 /* DynamicButtonStyleNone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleNone.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleNone.swift; sourceTree = "<group>"; };
+		968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		9EC8D0BA6A52C77527D0B0307EC71823 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6457D690AFFD60A86E71CD97D37D188 /* Pods-JenkinsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDD932F1775CEE258BC1B35E2F368611 /* DynamicButtonStyleDownload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDownload.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleDownload.swift; sourceTree = "<group>"; };
-		C6224C7BFB42CA5340DB41FAA19757F5 /* DynamicButtonStyleArrowLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowLeft.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleArrowLeft.swift; sourceTree = "<group>"; };
-		C646C9A7834E95373ED9C454C6A19A07 /* DynamicButtonStyleArrowUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowUp.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleArrowUp.swift; sourceTree = "<group>"; };
-		CB229B94E051CFF05DCBE15640822B8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D310EEE85255A53AB1EC3D176431CB5B /* DynamicButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyle.swift; path = DynamicButton/DynamicButtonStyle.swift; sourceTree = "<group>"; };
-		D65946AD5A90AEA6A46CF1709B6E12BF /* DynamicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-prefix.pch"; sourceTree = "<group>"; };
-		E04D986D36E92E95D6D3B233AC1756BD /* PathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathHelper.swift; path = DynamicButton/PathHelper.swift; sourceTree = "<group>"; };
-		E7E1A503C0DFCE093742A3FE9BF4D722 /* DynamicButtonStyleCaretLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretLeft.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleCaretLeft.swift; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EB3B4C19402C868A3FC286FC5B207924 /* DynamicButtonStylePause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePause.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStylePause.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		DBB6D1E439C1CCFCBC56224970704B9E /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
 		F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsTest.release.xcconfig"; sourceTree = "<group>"; };
-		F9B8F12F4E5192057F6B1707CF26899B /* DynamicButtonStyleRewind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleRewind.swift; path = DynamicButton/DynamicButtonStyles/DynamicButtonStyleRewind.swift; sourceTree = "<group>"; };
 		FC4DE64BA0E3A4FF5A23DD258F77E61C /* Pods-JenkinsTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JenkinsTest.modulemap"; sourceTree = "<group>"; };
+		FEBC296F793A53D56A1E18FFF6B256BA /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BDB2AD9C0C8FBE4E17AC7E0E03355E4 /* Frameworks */ = {
+		19FBA5C521CBA02DBACDE21E48D00CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BE3EE6F5493387952E1A23642C4793 /* Foundation.framework in Frameworks */,
+				BE6738C0C0FD368B7299C7037B773694 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D641C3D9484EE9235AA3D40A30902C2B /* Frameworks */ = {
+		DCEBFA5469DC5470B5A642DD28A73FA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0084DD08E9A2383560949E90C72CD563 /* Foundation.framework in Frameworks */,
-				A2E645E204C259F4BB0192893B35DEB9 /* UIKit.framework in Frameworks */,
+				E9507D065768688927402DDEC9400076 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CBEB8122ABE4F44FF4F5CD8F3A749F1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				554171A05AE39D9D8914048D2DB43753 /* DynamicButton.framework */,
-				9F4F7873BF1C9040ABBE0CB6912DADB2 /* Pods_JenkinsTest.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		364ED332B38715DB138F31E706CD55A2 /* Pods-JenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,12 +90,21 @@
 			path = "Target Support Files/Pods-JenkinsTest";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F6D718574B4AD16C8124161B2EE62D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC8D0BA6A52C77527D0B0307EC71823 /* DLRadioButton.framework */,
+				601D73B77BA241A1996266E3ACE103F5 /* Pods_JenkinsTest.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6434F6A7A2BCFDCA7B1A88F38C3FDF41 /* Targets Support Files */ = {
@@ -170,139 +115,113 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		799FB1500AB5CE636D69CCBEA090ED01 /* DynamicButton */ = {
+		703227E263757D7F8B262EDB0B8F8B13 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BB223FF103DFE8324A34BF33A1709C4 /* DynamicButton.swift */,
-				D310EEE85255A53AB1EC3D176431CB5B /* DynamicButtonStyle.swift */,
-				54E018ECBDE3DCE47FFD467289AF4670 /* DynamicButtonStyleArrowDown.swift */,
-				C6224C7BFB42CA5340DB41FAA19757F5 /* DynamicButtonStyleArrowLeft.swift */,
-				87DC352754E847019DD997B0AFE64854 /* DynamicButtonStyleArrowRight.swift */,
-				C646C9A7834E95373ED9C454C6A19A07 /* DynamicButtonStyleArrowUp.swift */,
-				5EB774EED46D7CD9EDAFC9DEB4EE6F4A /* DynamicButtonStyleCaretDown.swift */,
-				E7E1A503C0DFCE093742A3FE9BF4D722 /* DynamicButtonStyleCaretLeft.swift */,
-				825D4CE38FF6DAEA306D03C08104034E /* DynamicButtonStyleCaretRight.swift */,
-				0CB44C468CF70689DEB81BD893AA851F /* DynamicButtonStyleCaretUp.swift */,
-				3E237B87542879EDA5CC755050AC71F8 /* DynamicButtonStyleCheckMark.swift */,
-				4606681BA2CE5E30132C22EF783F9FB2 /* DynamicButtonStyleCircleClose.swift */,
-				54C96649B39B00B1C89C083E1C96452B /* DynamicButtonStyleCirclePlus.swift */,
-				70CB842CD345D4ECA594E6D06D4521BE /* DynamicButtonStyleClose.swift */,
-				5165B94A5D6AC3D015F6442A35CCC6D8 /* DynamicButtonStyleDot.swift */,
-				BDD932F1775CEE258BC1B35E2F368611 /* DynamicButtonStyleDownload.swift */,
-				854E6E74300607046F3FC68036F80EF2 /* DynamicButtonStyleFastForward.swift */,
-				4FCDC1439739C79593A564DBEC5E7640 /* DynamicButtonStyleHamburger.swift */,
-				0226217FCD1804D669AE063500C80A42 /* DynamicButtonStyleHorizontalLine.swift */,
-				AF09C80A3F2A50B0398C5F65F5E94174 /* DynamicButtonStyleNone.swift */,
-				EB3B4C19402C868A3FC286FC5B207924 /* DynamicButtonStylePause.swift */,
-				066A65F4EC244AB537D84C939EB99072 /* DynamicButtonStylePlay.swift */,
-				5D9F1FB50B86279600DB7CDF3254355E /* DynamicButtonStylePlus.swift */,
-				A88113267870D8B465C0D6AD0C012E8A /* DynamicButtonStyleReload.swift */,
-				F9B8F12F4E5192057F6B1707CF26899B /* DynamicButtonStyleRewind.swift */,
-				AB750E17FD5D13411D3C3F89911BEA4D /* DynamicButtonStyleStop.swift */,
-				817C72B30CDB7DC295BDD574E1BE49A8 /* DynamicButtonStyleVerticalLine.swift */,
-				E04D986D36E92E95D6D3B233AC1756BD /* PathHelper.swift */,
-				98080DA5D4CD82C186CAB907CB52BF03 /* Support Files */,
+				E6D782F948F41752A6D997862C12D7FC /* DLRadioButton */,
 			);
-			path = DynamicButton;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				8A5D82C6067F4C98DC9E72184548020E /* Pods */,
-				2CBEB8122ABE4F44FF4F5CD8F3A749F1 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				703227E263757D7F8B262EDB0B8F8B13 /* Pods */,
+				3F6D718574B4AD16C8124161B2EE62D0 /* Products */,
 				6434F6A7A2BCFDCA7B1A88F38C3FDF41 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A5D82C6067F4C98DC9E72184548020E /* Pods */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				799FB1500AB5CE636D69CCBEA090ED01 /* DynamicButton */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		98080DA5D4CD82C186CAB907CB52BF03 /* Support Files */ = {
+		E6D782F948F41752A6D997862C12D7FC /* DLRadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				4AC9B8409929FAE9BBFC1F5A917D4BD8 /* DynamicButton.modulemap */,
-				08A35DE4914C6427353653869BFA307C /* DynamicButton.xcconfig */,
-				ACE1797B2C8E97ED1D10F15632B050D0 /* DynamicButton-dummy.m */,
-				D65946AD5A90AEA6A46CF1709B6E12BF /* DynamicButton-prefix.pch */,
-				187108BD0825399CB75BB4DB6334AD8B /* DynamicButton-umbrella.h */,
-				CB229B94E051CFF05DCBE15640822B8A /* Info.plist */,
+				E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */,
+				7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */,
+				F5B7AB297EEDEF56E5255B41975270E9 /* Support Files */,
+			);
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		F5B7AB297EEDEF56E5255B41975270E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6D1E439C1CCFCBC56224970704B9E /* DLRadioButton.modulemap */,
+				968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */,
+				58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */,
+				FEBC296F793A53D56A1E18FFF6B256BA /* DLRadioButton-prefix.pch */,
+				DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */,
+				5D6D1DD8C281B7641F70A2F3A794894E /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DynamicButton";
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
+			path = "../Target Support Files/DLRadioButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		237159986DADE31DAD839C80578894D7 /* Headers */ = {
+		51FE3DBC70919C3B31C5FEEF707F97DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2B04EC94EB34523F3B1DCDC7C56657 /* Pods-JenkinsTest-umbrella.h in Headers */,
+				C7AB837F3200D41BF676DC49D222EBAC /* DLRadioButton-umbrella.h in Headers */,
+				5F5B910D306CC0849640D0372E2ADB43 /* DLRadioButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		923D2E98C877786D9B07041CB2A706FE /* Headers */ = {
+		BE4DB9D9B15D89B156E47C623A726FB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260594236DC0DA170536026C8B3C87B4 /* DynamicButton-umbrella.h in Headers */,
+				FF59A4545BCDB243A42266E87D37BB37 /* Pods-JenkinsTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		911A52C28520CD8611D3CF873C6C447D /* Pods-JenkinsTest */ = {
+		A5337E31AF0ECD71E6F78E5D31DA3EDE /* Pods-JenkinsTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD17C9636ABA6300E094DC9DBDCADA43 /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */;
+			buildConfigurationList = D3495B2146B0F2FAF72F772981A28D61 /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */;
 			buildPhases = (
-				2F3BBF7A50BA750C6CB47E841942D57D /* Sources */,
-				5BDB2AD9C0C8FBE4E17AC7E0E03355E4 /* Frameworks */,
-				237159986DADE31DAD839C80578894D7 /* Headers */,
+				B6221CBBBA1B893A78AD646493CE8ABE /* Sources */,
+				DCEBFA5469DC5470B5A642DD28A73FA0 /* Frameworks */,
+				BE4DB9D9B15D89B156E47C623A726FB0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE223E736026DCC0C4A18F573EBCD819 /* PBXTargetDependency */,
+				45916E85806AF491715D64625B1126D3 /* PBXTargetDependency */,
 			);
 			name = "Pods-JenkinsTest";
 			productName = "Pods-JenkinsTest";
-			productReference = 9F4F7873BF1C9040ABBE0CB6912DADB2 /* Pods_JenkinsTest.framework */;
+			productReference = 601D73B77BA241A1996266E3ACE103F5 /* Pods_JenkinsTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA17100DB8275605CCE5C20A2BAE7024 /* DynamicButton */ = {
+		F3990E3EAC160D4E4F89177D966FC1E9 /* DLRadioButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26ED4D9121B10751C78D0A8DC6E401CA /* Build configuration list for PBXNativeTarget "DynamicButton" */;
+			buildConfigurationList = 640D1DE3DAFB56E14FADAB35766A3F70 /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
 			buildPhases = (
-				EE60A28F8426E45B691495C970BCFA7B /* Sources */,
-				D641C3D9484EE9235AA3D40A30902C2B /* Frameworks */,
-				923D2E98C877786D9B07041CB2A706FE /* Headers */,
+				20D63686573496E9282895D377C9ECE3 /* Sources */,
+				19FBA5C521CBA02DBACDE21E48D00CB3 /* Frameworks */,
+				51FE3DBC70919C3B31C5FEEF707F97DE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DynamicButton;
-			productName = DynamicButton;
-			productReference = 554171A05AE39D9D8914048D2DB43753 /* DynamicButton.framework */;
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 9EC8D0BA6A52C77527D0B0307EC71823 /* DLRadioButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,137 +241,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2CBEB8122ABE4F44FF4F5CD8F3A749F1 /* Products */;
+			productRefGroup = 3F6D718574B4AD16C8124161B2EE62D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA17100DB8275605CCE5C20A2BAE7024 /* DynamicButton */,
-				911A52C28520CD8611D3CF873C6C447D /* Pods-JenkinsTest */,
+				F3990E3EAC160D4E4F89177D966FC1E9 /* DLRadioButton */,
+				A5337E31AF0ECD71E6F78E5D31DA3EDE /* Pods-JenkinsTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F3BBF7A50BA750C6CB47E841942D57D /* Sources */ = {
+		20D63686573496E9282895D377C9ECE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D26A58BEF69F57F33E6D3A413D91670 /* Pods-JenkinsTest-dummy.m in Sources */,
+				A028112A4C3A43DAA9BFB281C6AC8ACB /* DLRadioButton-dummy.m in Sources */,
+				1FA6F55238D2BC35915AECD626884F1D /* DLRadioButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE60A28F8426E45B691495C970BCFA7B /* Sources */ = {
+		B6221CBBBA1B893A78AD646493CE8ABE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850BFFF848007B8FB69086342368640D /* DynamicButton-dummy.m in Sources */,
-				E2CF940C7163342D4EB6E7B403940580 /* DynamicButton.swift in Sources */,
-				D8093A0C047616641D2AE98D4FECC3D0 /* DynamicButtonStyle.swift in Sources */,
-				2DF99BECC45C31A058C4FF7D808CCB18 /* DynamicButtonStyleArrowDown.swift in Sources */,
-				A3B65DBF2319DCC423837D4C6EB3709A /* DynamicButtonStyleArrowLeft.swift in Sources */,
-				A64F59FA443449BE46844816459AC7F1 /* DynamicButtonStyleArrowRight.swift in Sources */,
-				473C4C9DD54A4A5A90044516C21167FF /* DynamicButtonStyleArrowUp.swift in Sources */,
-				3D6EE0740EF9DC73E44E24FEF9FB2197 /* DynamicButtonStyleCaretDown.swift in Sources */,
-				2FA69D04971BFA570F1064F64AB1C281 /* DynamicButtonStyleCaretLeft.swift in Sources */,
-				CA4F288007B3EE798928A30055D87D35 /* DynamicButtonStyleCaretRight.swift in Sources */,
-				14DE6F71006607743C93233FA3BB31D2 /* DynamicButtonStyleCaretUp.swift in Sources */,
-				78668D6766B411ACAD647A38BC51019E /* DynamicButtonStyleCheckMark.swift in Sources */,
-				6393BDD80CBEAAD768C3B3DCB63F25BB /* DynamicButtonStyleCircleClose.swift in Sources */,
-				CA4919390083455E0CADBFC6F327A9F8 /* DynamicButtonStyleCirclePlus.swift in Sources */,
-				D6646571D768AB8B5864C02CA1E289F5 /* DynamicButtonStyleClose.swift in Sources */,
-				36000FF345EE112F1214D423AC1C9F8D /* DynamicButtonStyleDot.swift in Sources */,
-				9B3AE9F782BC3121E0CFEF0C8D9ABF72 /* DynamicButtonStyleDownload.swift in Sources */,
-				1F62C2403B4D3497CA24631AC2FA1F7E /* DynamicButtonStyleFastForward.swift in Sources */,
-				6447BE95F176EA0D112C94D98B46CBF9 /* DynamicButtonStyleHamburger.swift in Sources */,
-				F890AFCD40A581DDA1CD03B19CEBDF36 /* DynamicButtonStyleHorizontalLine.swift in Sources */,
-				AB070C3AFBD305B15D37AAE4C866D40C /* DynamicButtonStyleNone.swift in Sources */,
-				DE069421E68F395D62446DD9D07981C0 /* DynamicButtonStylePause.swift in Sources */,
-				CA14F46741E5D4EB6F49F028ECCB0A68 /* DynamicButtonStylePlay.swift in Sources */,
-				CDFA81C8701C156BE683D1C0F965EDD3 /* DynamicButtonStylePlus.swift in Sources */,
-				E347EA1409422CAD4B12696D54604E61 /* DynamicButtonStyleReload.swift in Sources */,
-				57AA3D49348DE30E3D690C8AF0945A95 /* DynamicButtonStyleRewind.swift in Sources */,
-				02F4B1A2DA6504DE901A0C33A71C3390 /* DynamicButtonStyleStop.swift in Sources */,
-				9AC6827D95C00BCC9A8415780C98DFCC /* DynamicButtonStyleVerticalLine.swift in Sources */,
-				4AF869AA195A1C8C2D7B3C50E9C8FFB8 /* PathHelper.swift in Sources */,
+				F285468F92D3AE871C2A6329C4FB84E3 /* Pods-JenkinsTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE223E736026DCC0C4A18F573EBCD819 /* PBXTargetDependency */ = {
+		45916E85806AF491715D64625B1126D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DynamicButton;
-			target = DA17100DB8275605CCE5C20A2BAE7024 /* DynamicButton */;
-			targetProxy = DDAC372DEFF0E1DC109BF59F14153281 /* PBXContainerItemProxy */;
+			name = DLRadioButton;
+			target = F3990E3EAC160D4E4F89177D966FC1E9 /* DLRadioButton */;
+			targetProxy = AA4C9973401EC01CAA53296F2EBE70E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A40BC906FF5E81FB40E44F37BE3C8D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A35DE4914C6427353653869BFA307C /* DynamicButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DynamicButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		22EC57D59FC51D78FC2CC193FBE253EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JenkinsTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JenkinsTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56E60B2D85FD2FCCBD3D7C1A2D640B22 /* Release */ = {
+		1BEBFFA3A795200F016BA913F969BC74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */;
 			buildSettings = {
@@ -477,6 +306,35 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_JenkinsTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31F8ABE817A21C1EF374E81A4E8EFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DLRadioButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,9 +385,9 @@
 			};
 			name = Debug;
 		};
-		B09A813C4F49135B3B8724B542DA4AC5 /* Debug */ = {
+		A8C61832C4AF69DB49F2171D62F1D5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A35DE4914C6427353653869BFA307C /* DynamicButton.xcconfig */;
+			baseConfigurationReference = 2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -540,17 +398,49 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JenkinsTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JenkinsTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B91A46568521B4B69EA0ADCEFB96FB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DynamicButton;
+				PRODUCT_NAME = DLRadioButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -598,15 +488,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26ED4D9121B10751C78D0A8DC6E401CA /* Build configuration list for PBXNativeTarget "DynamicButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B09A813C4F49135B3B8724B542DA4AC5 /* Debug */,
-				1A40BC906FF5E81FB40E44F37BE3C8D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -616,11 +497,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD17C9636ABA6300E094DC9DBDCADA43 /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */ = {
+		640D1DE3DAFB56E14FADAB35766A3F70 /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22EC57D59FC51D78FC2CC193FBE253EC /* Debug */,
-				56E60B2D85FD2FCCBD3D7C1A2D640B22 /* Release */,
+				B91A46568521B4B69EA0ADCEFB96FB8C /* Debug */,
+				31F8ABE817A21C1EF374E81A4E8EFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3495B2146B0F2FAF72F772981A28D61 /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C61832C4AF69DB49F2171D62F1D5E7 /* Debug */,
+				1BEBFFA3A795200F016BA913F969BC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
