@@ -1,12 +1,12 @@
 PODS:
-  - DLRadioButton (1.4.8)
+  - SimpleButton (2.1)
 
 DEPENDENCIES:
-  - DLRadioButton (~> 1.4)
+  - SimpleButton (~> 2.1)
 
 SPEC CHECKSUMS:
-  DLRadioButton: 8fe4865b3ea8a5236e1d114dd283dd0884d3dc46
+  SimpleButton: 5bf40a1f836d9ce2acf3f2966f8b66cd3fb89624
 
-PODFILE CHECKSUM: 187221afd8d0ed6d7b6b78e6747be94e460f11a6
+PODFILE CHECKSUM: d1934297a80e0bbe1f9af614da7c840c9ce79138
 
 COCOAPODS: 1.0.0

@@ -7,71 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FA6F55238D2BC35915AECD626884F1D /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */; };
-		5F5B910D306CC0849640D0372E2ADB43 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A028112A4C3A43DAA9BFB281C6AC8ACB /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */; };
-		BE6738C0C0FD368B7299C7037B773694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C7AB837F3200D41BF676DC49D222EBAC /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9507D065768688927402DDEC9400076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F285468F92D3AE871C2A6329C4FB84E3 /* Pods-JenkinsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */; };
-		FF59A4545BCDB243A42266E87D37BB37 /* Pods-JenkinsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0016288C3EA07521C62568D20447EB86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		09B79CBE525CD698672A1E9F968892AF /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910BC70E6184FDE65AFF2E1BDFB9C09 /* SimpleButtonStateChangeValue.swift */; };
+		60F7606782048EFE0EF9CF9378374172 /* SimpleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE87FB7C7B1F10506289290FBE9A7BE /* SimpleButton-dummy.m */; };
+		64382FFEF27D1220CFD235F3902CAECB /* Pods-JenkinsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */; };
+		674A2FE7B111B1578A5FE9F29EF37FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6967BA7FAE1F39C52E02066A0756C997 /* SimpleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1608E10FB8A065C94D9A31403A2845 /* SimpleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7488A763969F7F876F4CA6310A80F677 /* Pods-JenkinsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72A23EF5CB72C27B2A86D63AAAB8C51 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A782665E0D44BFE1FD94D781F03DA39 /* SimpleButton.swift */; };
+		F73D829AAB607F501BEA14259B1A3FBA /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6857EDD52192D31DC195724D9C3ED /* SimpleButtonControlState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA4C9973401EC01CAA53296F2EBE70E2 /* PBXContainerItemProxy */ = {
+		26A4B34DCEE41FDDD1EB33FD7B63FA83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3990E3EAC160D4E4F89177D966FC1E9;
-			remoteInfo = DLRadioButton;
+			remoteGlobalIDString = F2AD85182322B811E34D54FFABAA8396;
+			remoteInfo = SimpleButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsTest-dummy.m"; sourceTree = "<group>"; };
 		145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JenkinsTest-umbrella.h"; sourceTree = "<group>"; };
+		1A782665E0D44BFE1FD94D781F03DA39 /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButton.swift; path = SimpleButton/SimpleButton.swift; sourceTree = "<group>"; };
 		2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2E480CD3967E2F38165059C814B790E6 /* SimpleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-prefix.pch"; sourceTree = "<group>"; };
 		4B0D791B791C6E61A48B57675BFD3E5C /* Pods-JenkinsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
-		5D6D1DD8C281B7641F70A2F3A794894E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		601D73B77BA241A1996266E3ACE103F5 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		5E2CCBD7F31E18722DE6DC4920B0CB55 /* SimpleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleButton.modulemap; sourceTree = "<group>"; };
+		615243E42F3B8D888E91A32A760204AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7910BC70E6184FDE65AFF2E1BDFB9C09 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonStateChangeValue.swift; path = SimpleButton/SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
 		8070BEA9A79337E9232E46BDEA2022EB /* Pods-JenkinsTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsTest-resources.sh"; sourceTree = "<group>"; };
 		8231462E11E992622DFC0E2B1627C77D /* Pods-JenkinsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsTest-frameworks.sh"; sourceTree = "<group>"; };
 		84B6FD6961B29094DF2BC1476DCAAAED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
-		9EC8D0BA6A52C77527D0B0307EC71823 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E6857EDD52192D31DC195724D9C3ED /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonControlState.swift; path = SimpleButton/SimpleButtonControlState.swift; sourceTree = "<group>"; };
+		AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleButton.xcconfig; sourceTree = "<group>"; };
+		B3F28396007E218EBE794AF4D71D0BC7 /* SimpleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6457D690AFFD60A86E71CD97D37D188 /* Pods-JenkinsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA45E14C0C4A263A8873E392CD82D095 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1608E10FB8A065C94D9A31403A2845 /* SimpleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
-		DBB6D1E439C1CCFCBC56224970704B9E /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
-		E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		DAE87FB7C7B1F10506289290FBE9A7BE /* SimpleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleButton-dummy.m"; sourceTree = "<group>"; };
 		F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsTest.release.xcconfig"; sourceTree = "<group>"; };
 		FC4DE64BA0E3A4FF5A23DD258F77E61C /* Pods-JenkinsTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JenkinsTest.modulemap"; sourceTree = "<group>"; };
-		FEBC296F793A53D56A1E18FFF6B256BA /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19FBA5C521CBA02DBACDE21E48D00CB3 /* Frameworks */ = {
+		D2536CB8912C4F76A7E214D36DE500AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6738C0C0FD368B7299C7037B773694 /* Foundation.framework in Frameworks */,
+				0016288C3EA07521C62568D20447EB86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCEBFA5469DC5470B5A642DD28A73FA0 /* Frameworks */ = {
+		E3F1D91A571D161DB63BE265ADA19012 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9507D065768688927402DDEC9400076 /* Foundation.framework in Frameworks */,
+				674A2FE7B111B1578A5FE9F29EF37FC3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059370170C6C0E7DDC9984F0660476AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA45E14C0C4A263A8873E392CD82D095 /* Pods_JenkinsTest.framework */,
+				B3F28396007E218EBE794AF4D71D0BC7 /* SimpleButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D78D95F4871AAF9ED1DE1BF4DFF901 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				615243E42F3B8D888E91A32A760204AB /* Info.plist */,
+				5E2CCBD7F31E18722DE6DC4920B0CB55 /* SimpleButton.modulemap */,
+				AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */,
+				DAE87FB7C7B1F10506289290FBE9A7BE /* SimpleButton-dummy.m */,
+				2E480CD3967E2F38165059C814B790E6 /* SimpleButton-prefix.pch */,
+				BB1608E10FB8A065C94D9A31403A2845 /* SimpleButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleButton";
+			sourceTree = "<group>";
+		};
 		364ED332B38715DB138F31E706CD55A2 /* Pods-JenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,13 +123,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3F6D718574B4AD16C8124161B2EE62D0 /* Products */ = {
+		42B868506834BC4F407D218ECE2FC3EB /* SimpleButton */ = {
 			isa = PBXGroup;
 			children = (
-				9EC8D0BA6A52C77527D0B0307EC71823 /* DLRadioButton.framework */,
-				601D73B77BA241A1996266E3ACE103F5 /* Pods_JenkinsTest.framework */,
+				1A782665E0D44BFE1FD94D781F03DA39 /* SimpleButton.swift */,
+				A6E6857EDD52192D31DC195724D9C3ED /* SimpleButtonControlState.swift */,
+				7910BC70E6184FDE65AFF2E1BDFB9C09 /* SimpleButtonStateChangeValue.swift */,
+				11D78D95F4871AAF9ED1DE1BF4DFF901 /* Support Files */,
 			);
-			name = Products;
+			path = SimpleButton;
 			sourceTree = "<group>";
 		};
 		6434F6A7A2BCFDCA7B1A88F38C3FDF41 /* Targets Support Files */ = {
@@ -115,23 +142,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		703227E263757D7F8B262EDB0B8F8B13 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6D782F948F41752A6D997862C12D7FC /* DLRadioButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				703227E263757D7F8B262EDB0B8F8B13 /* Pods */,
-				3F6D718574B4AD16C8124161B2EE62D0 /* Products */,
+				884D4C7487CBE2396B105DDEA4C34E67 /* Pods */,
+				059370170C6C0E7DDC9984F0660476AE /* Products */,
 				6434F6A7A2BCFDCA7B1A88F38C3FDF41 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		884D4C7487CBE2396B105DDEA4C34E67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42B868506834BC4F407D218ECE2FC3EB /* SimpleButton */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -142,86 +169,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6D782F948F41752A6D997862C12D7FC /* DLRadioButton */ = {
-			isa = PBXGroup;
-			children = (
-				E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */,
-				7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */,
-				F5B7AB297EEDEF56E5255B41975270E9 /* Support Files */,
-			);
-			path = DLRadioButton;
-			sourceTree = "<group>";
-		};
-		F5B7AB297EEDEF56E5255B41975270E9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DBB6D1E439C1CCFCBC56224970704B9E /* DLRadioButton.modulemap */,
-				968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */,
-				58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */,
-				FEBC296F793A53D56A1E18FFF6B256BA /* DLRadioButton-prefix.pch */,
-				DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */,
-				5D6D1DD8C281B7641F70A2F3A794894E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DLRadioButton";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		51FE3DBC70919C3B31C5FEEF707F97DE /* Headers */ = {
+		75656AB409B7F4D4CBCCB5CD650BA8E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AB837F3200D41BF676DC49D222EBAC /* DLRadioButton-umbrella.h in Headers */,
-				5F5B910D306CC0849640D0372E2ADB43 /* DLRadioButton.h in Headers */,
+				7488A763969F7F876F4CA6310A80F677 /* Pods-JenkinsTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE4DB9D9B15D89B156E47C623A726FB0 /* Headers */ = {
+		866E838AFC07B0BC9B791BB021D50F71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF59A4545BCDB243A42266E87D37BB37 /* Pods-JenkinsTest-umbrella.h in Headers */,
+				6967BA7FAE1F39C52E02066A0756C997 /* SimpleButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A5337E31AF0ECD71E6F78E5D31DA3EDE /* Pods-JenkinsTest */ = {
+		99C449188355735CD3746DFA18C36C05 /* Pods-JenkinsTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3495B2146B0F2FAF72F772981A28D61 /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */;
+			buildConfigurationList = 6605A29C212C75C04C47C2CD76CE055A /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */;
 			buildPhases = (
-				B6221CBBBA1B893A78AD646493CE8ABE /* Sources */,
-				DCEBFA5469DC5470B5A642DD28A73FA0 /* Frameworks */,
-				BE4DB9D9B15D89B156E47C623A726FB0 /* Headers */,
+				3E7D4BA59D14CD11031716436FCC9BB1 /* Sources */,
+				E3F1D91A571D161DB63BE265ADA19012 /* Frameworks */,
+				75656AB409B7F4D4CBCCB5CD650BA8E8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				45916E85806AF491715D64625B1126D3 /* PBXTargetDependency */,
+				E8D62280DBCC9764CD0BC2E028C61DBA /* PBXTargetDependency */,
 			);
 			name = "Pods-JenkinsTest";
 			productName = "Pods-JenkinsTest";
-			productReference = 601D73B77BA241A1996266E3ACE103F5 /* Pods_JenkinsTest.framework */;
+			productReference = BA45E14C0C4A263A8873E392CD82D095 /* Pods_JenkinsTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F3990E3EAC160D4E4F89177D966FC1E9 /* DLRadioButton */ = {
+		F2AD85182322B811E34D54FFABAA8396 /* SimpleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 640D1DE3DAFB56E14FADAB35766A3F70 /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildConfigurationList = 6303498419113697C8461A332DDBD942 /* Build configuration list for PBXNativeTarget "SimpleButton" */;
 			buildPhases = (
-				20D63686573496E9282895D377C9ECE3 /* Sources */,
-				19FBA5C521CBA02DBACDE21E48D00CB3 /* Frameworks */,
-				51FE3DBC70919C3B31C5FEEF707F97DE /* Headers */,
+				BCEBE986B69E7AA4458E3D0107EC75CB /* Sources */,
+				D2536CB8912C4F76A7E214D36DE500AE /* Frameworks */,
+				866E838AFC07B0BC9B791BB021D50F71 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DLRadioButton;
-			productName = DLRadioButton;
-			productReference = 9EC8D0BA6A52C77527D0B0307EC71823 /* DLRadioButton.framework */;
+			name = SimpleButton;
+			productName = SimpleButton;
+			productReference = B3F28396007E218EBE794AF4D71D0BC7 /* SimpleButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,47 +243,108 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3F6D718574B4AD16C8124161B2EE62D0 /* Products */;
+			productRefGroup = 059370170C6C0E7DDC9984F0660476AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3990E3EAC160D4E4F89177D966FC1E9 /* DLRadioButton */,
-				A5337E31AF0ECD71E6F78E5D31DA3EDE /* Pods-JenkinsTest */,
+				99C449188355735CD3746DFA18C36C05 /* Pods-JenkinsTest */,
+				F2AD85182322B811E34D54FFABAA8396 /* SimpleButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20D63686573496E9282895D377C9ECE3 /* Sources */ = {
+		3E7D4BA59D14CD11031716436FCC9BB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A028112A4C3A43DAA9BFB281C6AC8ACB /* DLRadioButton-dummy.m in Sources */,
-				1FA6F55238D2BC35915AECD626884F1D /* DLRadioButton.m in Sources */,
+				64382FFEF27D1220CFD235F3902CAECB /* Pods-JenkinsTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6221CBBBA1B893A78AD646493CE8ABE /* Sources */ = {
+		BCEBE986B69E7AA4458E3D0107EC75CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F285468F92D3AE871C2A6329C4FB84E3 /* Pods-JenkinsTest-dummy.m in Sources */,
+				60F7606782048EFE0EF9CF9378374172 /* SimpleButton-dummy.m in Sources */,
+				A72A23EF5CB72C27B2A86D63AAAB8C51 /* SimpleButton.swift in Sources */,
+				F73D829AAB607F501BEA14259B1A3FBA /* SimpleButtonControlState.swift in Sources */,
+				09B79CBE525CD698672A1E9F968892AF /* SimpleButtonStateChangeValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		45916E85806AF491715D64625B1126D3 /* PBXTargetDependency */ = {
+		E8D62280DBCC9764CD0BC2E028C61DBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DLRadioButton;
-			target = F3990E3EAC160D4E4F89177D966FC1E9 /* DLRadioButton */;
-			targetProxy = AA4C9973401EC01CAA53296F2EBE70E2 /* PBXContainerItemProxy */;
+			name = SimpleButton;
+			target = F2AD85182322B811E34D54FFABAA8396 /* SimpleButton */;
+			targetProxy = 26A4B34DCEE41FDDD1EB33FD7B63FA83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BEBFFA3A795200F016BA913F969BC74 /* Release */ = {
+		273A9F33810E9395D0E41051B0DFDEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EBEC23B4B376FB62C2EE4DFA5858602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80B7C6435AE98E147FFD87F5D8626350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */;
 			buildSettings = {
@@ -306,35 +369,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_JenkinsTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		31F8ABE817A21C1EF374E81A4E8EFDA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DLRadioButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		A8C61832C4AF69DB49F2171D62F1D5E7 /* Debug */ = {
+		AE8F1087E1568520AAE5A4487C9FE33A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */;
 			buildSettings = {
@@ -412,35 +446,7 @@
 				PRODUCT_NAME = Pods_JenkinsTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B91A46568521B4B69EA0ADCEFB96FB8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DLRadioButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -497,20 +503,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		640D1DE3DAFB56E14FADAB35766A3F70 /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+		6303498419113697C8461A332DDBD942 /* Build configuration list for PBXNativeTarget "SimpleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B91A46568521B4B69EA0ADCEFB96FB8C /* Debug */,
-				31F8ABE817A21C1EF374E81A4E8EFDA7 /* Release */,
+				6EBEC23B4B376FB62C2EE4DFA5858602 /* Debug */,
+				273A9F33810E9395D0E41051B0DFDEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3495B2146B0F2FAF72F772981A28D61 /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */ = {
+		6605A29C212C75C04C47C2CD76CE055A /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8C61832C4AF69DB49F2171D62F1D5E7 /* Debug */,
-				1BEBFFA3A795200F016BA913F969BC74 /* Release */,
+				AE8F1087E1568520AAE5A4487C9FE33A /* Debug */,
+				80B7C6435AE98E147FFD87F5D8626350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

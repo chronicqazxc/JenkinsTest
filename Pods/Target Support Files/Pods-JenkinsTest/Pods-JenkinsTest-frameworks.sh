@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/DLRadioButton/DLRadioButton.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SimpleButton/SimpleButton.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/DLRadioButton/DLRadioButton.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SimpleButton/SimpleButton.framework"
 fi
