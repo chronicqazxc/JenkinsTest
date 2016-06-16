@@ -1,0 +1,12 @@
+PODS:
+  - DynamicButton (2.1.0)
+
+DEPENDENCIES:
+  - DynamicButton (~> 2.1)
+
+SPEC CHECKSUMS:
+  DynamicButton: 08c809fdee3c4feb34a20beeba64c069a529d176
+
+PODFILE CHECKSUM: 57457936bf6253d0383fab100ab881e680dfd150
+
+COCOAPODS: 1.0.0

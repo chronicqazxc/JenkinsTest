@@ -14,6 +14,7 @@
 		0193CD481D126EC20072956B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0193CD461D126EC20072956B /* LaunchScreen.storyboard */; };
 		0193CD531D126EC20072956B /* JenkinsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0193CD521D126EC20072956B /* JenkinsTestTests.swift */; };
 		0193CD5E1D126EC20072956B /* JenkinsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0193CD5D1D126EC20072956B /* JenkinsTestUITests.swift */; };
+		E541DD3B2E4BB30F1BAEC05D /* Pods_JenkinsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D71BD43EFC23AEBFE1361 /* Pods_JenkinsTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		0193CD591D126EC20072956B /* JenkinsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0193CD5D1D126EC20072956B /* JenkinsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestUITests.swift; sourceTree = "<group>"; };
 		0193CD5F1D126EC20072956B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2737601C8F1DBBCF1DA817F9 /* Pods-JenkinsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.release.xcconfig"; sourceTree = "<group>"; };
+		F25F55AC9369A65208CC54D2 /* Pods-JenkinsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F54D71BD43EFC23AEBFE1361 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E541DD3B2E4BB30F1BAEC05D /* Pods_JenkinsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				0193CD511D126EC20072956B /* JenkinsTestTests */,
 				0193CD5C1D126EC20072956B /* JenkinsTestUITests */,
 				0193CD3B1D126EC20072956B /* Products */,
+				6180283B6AF57774A3961129 /* Pods */,
+				5E8E3FBDB223F00CC11D6968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = JenkinsTestUITests;
 			sourceTree = "<group>";
 		};
+		5E8E3FBDB223F00CC11D6968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54D71BD43EFC23AEBFE1361 /* Pods_JenkinsTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6180283B6AF57774A3961129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F25F55AC9369A65208CC54D2 /* Pods-JenkinsTest.debug.xcconfig */,
+				2737601C8F1DBBCF1DA817F9 /* Pods-JenkinsTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0193CD621D126EC20072956B /* Build configuration list for PBXNativeTarget "JenkinsTest" */;
 			buildPhases = (
+				329C8DDAB903D60B4C7F1382 /* 📦 Check Pods Manifest.lock */,
 				0193CD361D126EC20072956B /* Sources */,
 				0193CD371D126EC20072956B /* Frameworks */,
 				0193CD381D126EC20072956B /* Resources */,
+				720585E5F9720AE66A7FFB4F /* 📦 Embed Pods Frameworks */,
+				BD7D5D68A10121F45AFF37A5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329C8DDAB903D60B4C7F1382 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		720585E5F9720AE66A7FFB4F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7D5D68A10121F45AFF37A5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0193CD361D126EC20072956B /* Sources */ = {
@@ -395,6 +470,7 @@
 		};
 		0193CD631D126EC20072956B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25F55AC9369A65208CC54D2 /* Pods-JenkinsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JenkinsTest/Info.plist;
@@ -406,6 +482,7 @@
 		};
 		0193CD641D126EC20072956B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2737601C8F1DBBCF1DA817F9 /* Pods-JenkinsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JenkinsTest/Info.plist;
@@ -482,6 +559,7 @@
 				0193CD641D126EC20072956B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0193CD651D126EC20072956B /* Build configuration list for PBXNativeTarget "JenkinsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +568,7 @@
 				0193CD671D126EC20072956B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0193CD681D126EC20072956B /* Build configuration list for PBXNativeTarget "JenkinsTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +577,7 @@
 				0193CD6A1D126EC20072956B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
