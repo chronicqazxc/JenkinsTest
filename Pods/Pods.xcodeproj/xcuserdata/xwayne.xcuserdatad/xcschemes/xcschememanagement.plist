@@ -9,20 +9,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SimpleButton.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>99C449188355735CD3746DFA18C36C05</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F2AD85182322B811E34D54FFABAA8396</key>
+		<key>EC0A1AFAE7A309D33E2F7DB5354ECB8C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,96 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0016288C3EA07521C62568D20447EB86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		09B79CBE525CD698672A1E9F968892AF /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910BC70E6184FDE65AFF2E1BDFB9C09 /* SimpleButtonStateChangeValue.swift */; };
-		60F7606782048EFE0EF9CF9378374172 /* SimpleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE87FB7C7B1F10506289290FBE9A7BE /* SimpleButton-dummy.m */; };
-		64382FFEF27D1220CFD235F3902CAECB /* Pods-JenkinsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */; };
-		674A2FE7B111B1578A5FE9F29EF37FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6967BA7FAE1F39C52E02066A0756C997 /* SimpleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1608E10FB8A065C94D9A31403A2845 /* SimpleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7488A763969F7F876F4CA6310A80F677 /* Pods-JenkinsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A72A23EF5CB72C27B2A86D63AAAB8C51 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A782665E0D44BFE1FD94D781F03DA39 /* SimpleButton.swift */; };
-		F73D829AAB607F501BEA14259B1A3FBA /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6857EDD52192D31DC195724D9C3ED /* SimpleButtonControlState.swift */; };
+		1FE7B7F041A8E3A3B2A4506990CCF810 /* Pods-JenkinsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */; };
+		42FE5D2BA499A643A6170ECD46F699EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		50F67C2FD988467865162C1061BFE25A /* Pods-JenkinsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		26A4B34DCEE41FDDD1EB33FD7B63FA83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2AD85182322B811E34D54FFABAA8396;
-			remoteInfo = SimpleButton;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		089009304A915AA06C8F93A931122081 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1095A54126BEDABFFC1BDD89E91F2082 /* Pods-JenkinsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsTest-dummy.m"; sourceTree = "<group>"; };
 		145131688684FD024A59E926FC7F0E1B /* Pods-JenkinsTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JenkinsTest-umbrella.h"; sourceTree = "<group>"; };
-		1A782665E0D44BFE1FD94D781F03DA39 /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButton.swift; path = SimpleButton/SimpleButton.swift; sourceTree = "<group>"; };
 		2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsTest.debug.xcconfig"; sourceTree = "<group>"; };
-		2E480CD3967E2F38165059C814B790E6 /* SimpleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-prefix.pch"; sourceTree = "<group>"; };
 		4B0D791B791C6E61A48B57675BFD3E5C /* Pods-JenkinsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E2CCBD7F31E18722DE6DC4920B0CB55 /* SimpleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleButton.modulemap; sourceTree = "<group>"; };
-		615243E42F3B8D888E91A32A760204AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7910BC70E6184FDE65AFF2E1BDFB9C09 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonStateChangeValue.swift; path = SimpleButton/SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
 		8070BEA9A79337E9232E46BDEA2022EB /* Pods-JenkinsTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsTest-resources.sh"; sourceTree = "<group>"; };
 		8231462E11E992622DFC0E2B1627C77D /* Pods-JenkinsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsTest-frameworks.sh"; sourceTree = "<group>"; };
 		84B6FD6961B29094DF2BC1476DCAAAED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6E6857EDD52192D31DC195724D9C3ED /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonControlState.swift; path = SimpleButton/SimpleButtonControlState.swift; sourceTree = "<group>"; };
-		AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleButton.xcconfig; sourceTree = "<group>"; };
-		B3F28396007E218EBE794AF4D71D0BC7 /* SimpleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6457D690AFFD60A86E71CD97D37D188 /* Pods-JenkinsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA45E14C0C4A263A8873E392CD82D095 /* Pods_JenkinsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB1608E10FB8A065C94D9A31403A2845 /* SimpleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAE87FB7C7B1F10506289290FBE9A7BE /* SimpleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleButton-dummy.m"; sourceTree = "<group>"; };
 		F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsTest.release.xcconfig"; sourceTree = "<group>"; };
 		FC4DE64BA0E3A4FF5A23DD258F77E61C /* Pods-JenkinsTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JenkinsTest.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2536CB8912C4F76A7E214D36DE500AE /* Frameworks */ = {
+		77A3D0807ADB0B85BA549D9180F83943 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0016288C3EA07521C62568D20447EB86 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3F1D91A571D161DB63BE265ADA19012 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				674A2FE7B111B1578A5FE9F29EF37FC3 /* Foundation.framework in Frameworks */,
+				42FE5D2BA499A643A6170ECD46F699EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		059370170C6C0E7DDC9984F0660476AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BA45E14C0C4A263A8873E392CD82D095 /* Pods_JenkinsTest.framework */,
-				B3F28396007E218EBE794AF4D71D0BC7 /* SimpleButton.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		11D78D95F4871AAF9ED1DE1BF4DFF901 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				615243E42F3B8D888E91A32A760204AB /* Info.plist */,
-				5E2CCBD7F31E18722DE6DC4920B0CB55 /* SimpleButton.modulemap */,
-				AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */,
-				DAE87FB7C7B1F10506289290FBE9A7BE /* SimpleButton-dummy.m */,
-				2E480CD3967E2F38165059C814B790E6 /* SimpleButton-prefix.pch */,
-				BB1608E10FB8A065C94D9A31403A2845 /* SimpleButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SimpleButton";
-			sourceTree = "<group>";
-		};
 		364ED332B38715DB138F31E706CD55A2 /* Pods-JenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,23 +58,20 @@
 			path = "Target Support Files/Pods-JenkinsTest";
 			sourceTree = "<group>";
 		};
+		39B447030853D2A09C6FBC3A1A710860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089009304A915AA06C8F93A931122081 /* Pods_JenkinsTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		42B868506834BC4F407D218ECE2FC3EB /* SimpleButton */ = {
-			isa = PBXGroup;
-			children = (
-				1A782665E0D44BFE1FD94D781F03DA39 /* SimpleButton.swift */,
-				A6E6857EDD52192D31DC195724D9C3ED /* SimpleButtonControlState.swift */,
-				7910BC70E6184FDE65AFF2E1BDFB9C09 /* SimpleButtonStateChangeValue.swift */,
-				11D78D95F4871AAF9ED1DE1BF4DFF901 /* Support Files */,
-			);
-			path = SimpleButton;
 			sourceTree = "<group>";
 		};
 		6434F6A7A2BCFDCA7B1A88F38C3FDF41 /* Targets Support Files */ = {
@@ -147,18 +87,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				884D4C7487CBE2396B105DDEA4C34E67 /* Pods */,
-				059370170C6C0E7DDC9984F0660476AE /* Products */,
+				39B447030853D2A09C6FBC3A1A710860 /* Products */,
 				6434F6A7A2BCFDCA7B1A88F38C3FDF41 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		884D4C7487CBE2396B105DDEA4C34E67 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				42B868506834BC4F407D218ECE2FC3EB /* SimpleButton */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -172,58 +103,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		75656AB409B7F4D4CBCCB5CD650BA8E8 /* Headers */ = {
+		1AF61054999D7C0056D6E8129AABFE88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7488A763969F7F876F4CA6310A80F677 /* Pods-JenkinsTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		866E838AFC07B0BC9B791BB021D50F71 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6967BA7FAE1F39C52E02066A0756C997 /* SimpleButton-umbrella.h in Headers */,
+				50F67C2FD988467865162C1061BFE25A /* Pods-JenkinsTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		99C449188355735CD3746DFA18C36C05 /* Pods-JenkinsTest */ = {
+		EC0A1AFAE7A309D33E2F7DB5354ECB8C /* Pods-JenkinsTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6605A29C212C75C04C47C2CD76CE055A /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */;
+			buildConfigurationList = 26D1F3ED52D15DBECBBF8957DE69B4CE /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */;
 			buildPhases = (
-				3E7D4BA59D14CD11031716436FCC9BB1 /* Sources */,
-				E3F1D91A571D161DB63BE265ADA19012 /* Frameworks */,
-				75656AB409B7F4D4CBCCB5CD650BA8E8 /* Headers */,
+				2371DB6DD8236D88DE596206835F76FF /* Sources */,
+				77A3D0807ADB0B85BA549D9180F83943 /* Frameworks */,
+				1AF61054999D7C0056D6E8129AABFE88 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8D62280DBCC9764CD0BC2E028C61DBA /* PBXTargetDependency */,
 			);
 			name = "Pods-JenkinsTest";
 			productName = "Pods-JenkinsTest";
-			productReference = BA45E14C0C4A263A8873E392CD82D095 /* Pods_JenkinsTest.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F2AD85182322B811E34D54FFABAA8396 /* SimpleButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6303498419113697C8461A332DDBD942 /* Build configuration list for PBXNativeTarget "SimpleButton" */;
-			buildPhases = (
-				BCEBE986B69E7AA4458E3D0107EC75CB /* Sources */,
-				D2536CB8912C4F76A7E214D36DE500AE /* Frameworks */,
-				866E838AFC07B0BC9B791BB021D50F71 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SimpleButton;
-			productName = SimpleButton;
-			productReference = B3F28396007E218EBE794AF4D71D0BC7 /* SimpleButton.framework */;
+			productReference = 089009304A915AA06C8F93A931122081 /* Pods_JenkinsTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -243,140 +148,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 059370170C6C0E7DDC9984F0660476AE /* Products */;
+			productRefGroup = 39B447030853D2A09C6FBC3A1A710860 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99C449188355735CD3746DFA18C36C05 /* Pods-JenkinsTest */,
-				F2AD85182322B811E34D54FFABAA8396 /* SimpleButton */,
+				EC0A1AFAE7A309D33E2F7DB5354ECB8C /* Pods-JenkinsTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E7D4BA59D14CD11031716436FCC9BB1 /* Sources */ = {
+		2371DB6DD8236D88DE596206835F76FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64382FFEF27D1220CFD235F3902CAECB /* Pods-JenkinsTest-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCEBE986B69E7AA4458E3D0107EC75CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60F7606782048EFE0EF9CF9378374172 /* SimpleButton-dummy.m in Sources */,
-				A72A23EF5CB72C27B2A86D63AAAB8C51 /* SimpleButton.swift in Sources */,
-				F73D829AAB607F501BEA14259B1A3FBA /* SimpleButtonControlState.swift in Sources */,
-				09B79CBE525CD698672A1E9F968892AF /* SimpleButtonStateChangeValue.swift in Sources */,
+				1FE7B7F041A8E3A3B2A4506990CCF810 /* Pods-JenkinsTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E8D62280DBCC9764CD0BC2E028C61DBA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimpleButton;
-			target = F2AD85182322B811E34D54FFABAA8396 /* SimpleButton */;
-			targetProxy = 26A4B34DCEE41FDDD1EB33FD7B63FA83 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		273A9F33810E9395D0E41051B0DFDEDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SimpleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6EBEC23B4B376FB62C2EE4DFA5858602 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD157BF2B53F6462B4C921071BD310E /* SimpleButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimpleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		80B7C6435AE98E147FFD87F5D8626350 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JenkinsTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JenkinsTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		84FD87D359382A37B07149A12641B965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		AE8F1087E1568520AAE5A4487C9FE33A /* Debug */ = {
+		88CF0C0B4927ED07403252B163BF7D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B010E391E6EF0D384634E42E6CD55C0 /* Pods-JenkinsTest.debug.xcconfig */;
 			buildSettings = {
@@ -446,12 +238,44 @@
 				PRODUCT_NAME = Pods_JenkinsTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CE0EC509C75193E813E5B6B192B4BCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FFBB3F6C3DDF906B35E27868615BFF /* Pods-JenkinsTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JenkinsTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JenkinsTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		F594C655D48020EC34B00AA63E001773 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -494,29 +318,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26D1F3ED52D15DBECBBF8957DE69B4CE /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CF0C0B4927ED07403252B163BF7D10 /* Debug */,
+				CE0EC509C75193E813E5B6B192B4BCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD87D359382A37B07149A12641B965 /* Debug */,
 				F594C655D48020EC34B00AA63E001773 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6303498419113697C8461A332DDBD942 /* Build configuration list for PBXNativeTarget "SimpleButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EBEC23B4B376FB62C2EE4DFA5858602 /* Debug */,
-				273A9F33810E9395D0E41051B0DFDEDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6605A29C212C75C04C47C2CD76CE055A /* Build configuration list for PBXNativeTarget "Pods-JenkinsTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE8F1087E1568520AAE5A4487C9FE33A /* Debug */,
-				80B7C6435AE98E147FFD87F5D8626350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

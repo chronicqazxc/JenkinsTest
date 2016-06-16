@@ -8,5 +8,5 @@ target 'JenkinsTest' do
  #pod 'ButtonBackgroundColor', '~> 2.0'
  #pod 'DLRadioButton', '~> 1.4'
  #pod 'BButton', '~> 4.0'
- pod 'SimpleButton', '~> 2.1'
+ #pod 'SimpleButton', '~> 2.1'
 end
